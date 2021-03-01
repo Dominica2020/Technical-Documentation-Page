@@ -1,0 +1,105 @@
+<DOCTYPE html>
+  <html>
+
+  <head>
+    <title>Technical Documentation</title>
+
+    <head>
+
+    <body>
+      <div class="main-container">
+        <main id="main-doc">
+          <section class="main-section" id="javascript">
+            <header>
+              <h1>JavaScript</h1>
+            </header>
+            <p>JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+            <p>Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript is the programming language of the Web.</p>
+            <code>var x = 5;<br>
+              var y = 6;<br>
+              var z = x + y;</code>
+            <ul>
+              <li>JavaScript is the world's most popular programming language.</li>
+              <li>The JavaScript language resembles Java but does not have Java's static typing and strong type checking.</li>
+            </ul>
+
+          </section>
+          <section class="main-section" id="mongodb">
+            <header>
+              <h1>MongoDB</h1>
+            </header>
+            <p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
+            <p>MongoDB CRUD operations: create, read, update, and delete documents. The mongo shell is an interactive JavaScript interface to MongoDB. You can use the mongo shell to query and update data as well as perform administrative operations.</p>
+            <code>db.contacts.insert([
+              { "_id": 1, "name": "Anne", "phone": "+1 555 123 456", "city": "London" },<br>
+              { "_id": 2, "name": "Ivan", "city": "Vancouver" }
+              ])</code>
+
+          </section>
+          <section class="main-section" id="node.js">
+            <header>
+              <h1>Node.js</h1>
+            </header>
+            <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.</p>
+            <p>Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. </p>
+            <code>var http = require('http');</code>
+
+          </section>
+          <section class="main-section" id="python">
+            <header>
+              <h1>Python</h1>
+            </header>
+            <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. Python can be used on a server to create web applications.</p>
+            <p>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc). Python has a simple syntax similar to the English language. Its syntax allows developers to write programs with fewer lines than some other programming languages.</p>
+            <code>x = ["apple", "banana", "cherry"]</code>
+            <ul>
+              <li>Python can connect to database systems. It can also read and modify files.</li>
+              <li>Python can be used to handle big data and perform complex mathematics.</li>
+            </ul>
+
+          </section>
+          <section class="main-section" id="sql">
+            <header>
+              <h1>SQL</h1>
+            </header>
+            <p>SQL is a standard language for accessing and manipulating databases. SQL stands for Structured Query Language.</p>
+            <p>The main capabilites of SQL can be remebered using the acronym CRUD: Create, Retrieve, Update & Delete.</p>
+            <code>DELETE FROM <span>table_name</span> WHERE <span>condition;</span></code>
+            <ul>
+              <li>SQL can execute queries against a database.
+              </li>
+            </ul>
+
+          </section>
+          <section class="main-section" id="django">
+            <header>
+              <h1>Django</h1>
+            </header>
+            <p>Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source.</p>
+            <p></p>
+            <code>from <span>django.http</span> import Http404
+              from <span>django.http.response</span> import<br> (
+              Http404, HttpResponse, HttpResponseNotAllowed, StreamingHttpResponse,
+              cookie,
+              )</code>
+
+          </section>
+        </main>
+
+        <nav id="navbar">
+          <header>
+            <h1 id="doc-title">Full-Stack Documentation</h1>
+          </header>
+          <a class="nav-link" href="#javascript">JavaScript</a>
+          <a class="nav-link" href="#mongodb">MongoDB</a>
+          <a class="nav-link" href="#node.js">Node.js</a>
+          <a class="nav-link" href="#python">Python</a>
+          <a class="nav-link" href="#sql">SQL</a>
+          <a class="nav-link" href="#django">Django</a>
+        </nav>
+
+      </div>
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  </html>
